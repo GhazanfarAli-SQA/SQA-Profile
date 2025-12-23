@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>SQA Engineer Portfolio - Ghazanfar Ali</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio website of Ghazanfar Ali, a Software Quality Assurance Engineer specializing in manual and automation testing." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <!-- Side Drawer Navigation -->
+  <div class="drawer-overlay" id="drawerOverlay"></div>
+  <aside class="side-drawer" id="sideDrawer">
+    <div class="drawer-header">
+      <span class="drawer-logo">SQA<span>Pro</span></span>
+      <button class="drawer-close" id="drawerCloseBtn">&times;</button>
+    </div>
+    <nav class="drawer-nav">
+      <a href="#home" class="drawer-link">Home</a>
+      <a href="#about" class="drawer-link">About</a>
+      <a href="#profile" class="drawer-link">Profile</a>
+      <a href="#skills" class="drawer-link">Skills</a>
+      <a href="#experience" class="drawer-link">Experience</a>
+      <a href="#projects" class="drawer-link">Projects</a>
+      <a href="#contact" class="drawer-link">Contact</a>
+    </nav>
+  </aside>
+
+  <!-- Header / Navigation -->
+  <header class="site-header">
+    <div class="logo">SQA<span>Pro</span></div>
+    <nav class="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#profile">Profile</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <p class="hero-tagline">Software Quality Assurance Engineer</p>
+      <h1>Hi, I'm <span>Ghazanfar Ali</span></h1>
+      <p class="hero-subtitle">
+        I am an SQA Engineer focused on delivering reliable and secure software through
+        manual and automation testing. From test planning to execution and reporting,
+        I help teams ship high‑quality Android, iOS, and web applications.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn primary">View My Work</a>
+        <a href="#contact" class="btn ghost">Hire Me</a>
+      </div>
+      <div class="hero-metadata">
+        <div>
+          <span class="meta-label">Experience</span>
+          <span class="meta-value">SQA Engineer</span>
+        </div>
+        <div>
+          <span class="meta-label">Specialization</span>
+          <span class="meta-value">Manual & Automation</span>
+        </div>
+        <div>
+          <span class="meta-label">Platforms</span>
+          <span class="meta-value">Android · iOS · Web</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-card">
+      <div class="hero-avatar">
+        <!-- Profile image / initials -->
+        <div class="avatar-circle" id="avatarCircle">GA</div>
+        <!-- If you want an image instead of initials, you can uncomment this:
+        <img id="profileImage" src="your-image.jpg" alt="Profile" class="avatar-img" />
+        -->
+      </div>
+      <div class="hero-card-body" id="heroCardBody">
+        <h2 id="heroTitle">Quality at Every Release</h2>
+        <p id="heroDescription">
+          I design comprehensive test strategies, build automation frameworks, and collaborate
+          with teams to ensure every release is stable, secure, and user‑friendly.
+        </p>
+        <ul class="hero-highlights" id="heroHighlights">
+          <li>Automation & manual regression testing</li>
+          <li>API, Android, iOS, and web app testing</li>
+          <li>Security and risk‑based testing mindset</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section about">
+    <div class="section-header">
+      <h2>About Me</h2>
+      <p>A quick snapshot of who I am and how I work.</p>
+    </div>
+    <div class="about-grid">
+      <div>
+        <p>
+          I am <strong>Ghazanfar Ali</strong>, a dedicated <strong>Software Quality Assurance Engineer</strong>
+          with hands‑on experience in <strong>automation testing</strong> and <strong>manual testing</strong>.
+          I specialize in testing <strong>Android</strong>, <strong>iOS</strong>, and <strong>web applications</strong>,
+          ensuring smooth user journeys and robust system behavior.
+        </p>
+        <p>
+          My work covers <strong>regression testing</strong>, <strong>API testing</strong>, and
+          <strong>security testing</strong>, helping teams detect critical issues early and
+          improve product reliability. I enjoy refining test processes, improving coverage,
+          and continuously learning new tools and techniques in QA.
+        </p>
+      </div>
+      <div class="about-cards">
+        <div class="about-card">
+          <h3>What I Focus On</h3>
+          <ul>
+            <li>Automation & manual test design</li>
+            <li>Regression & API testing for critical flows</li>
+            <li>Android, iOS, and web app quality</li>
+          </ul>
+        </div>
+        <div class="about-card">
+          <h3>How I Work</h3>
+          <ul>
+            <li>Risk‑based and security‑aware testing</li>
+            <li>Clear, actionable defect reporting</li>
+            <li>Continuous improvement of QA practices</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Profile Section (editable profile information) -->
+  <section id="profile" class="section profile">
+    <div class="section-header">
+      <h2>Profile</h2>
+      <p>Update your profile details and preview them instantly.</p>
+    </div>
+    <div class="profile-grid">
+      <!-- Live Preview -->
+      <div class="profile-preview">
+        <div class="profile-preview-card">
+          <div class="profile-preview-avatar">
+            <div class="avatar-circle" id="profileAvatarPreview">GA</div>
+            <img id="profileImagePreview" class="avatar-img hidden" alt="Profile" />
+          </div>
+          <div class="profile-preview-body">
+            <h3 id="previewName">Ghazanfar Ali</h3>
+            <p id="previewRole">SQA Engineer</p>
+            <p id="previewSummary">
+              Automation testing, manual testing, regression testing, API testing,
+              Android, iOS, web app testing, and security testing.
+            </p>
+            <ul class="preview-skills" id="previewSkills">
+              <li>Automation Testing</li>
+              <li>Manual Testing</li>
+              <li>Regression Testing</li>
+              <li>API Testing</li>
+              <li>Android / iOS / Web</li>
+              <li>Security Testing</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Edit Form -->
+      <form class="profile-form" id="profileForm">
+        <h3>Edit Profile Data</h3>
+        <div class="form-field">
+          <label for="profileName">Full Name</label>
+          <input id="profileName" type="text" value="Ghazanfar Ali" />
+        </div>
+        <div class="form-field">
+          <label for="profileRole">Role / Title</label>
+          <input id="profileRole" type="text" value="SQA Engineer" />
+        </div>
+        <div class="form-field">
+          <label for="profileSummary">Short Summary</label>
+          <textarea id="profileSummary" rows="3">Automation testing, manual testing, regression testing, API testing, Android, iOS, web app testing, and security testing.</textarea>
+        </div>
+        <div class="form-field">
+          <label for="profileSkills">Key Skills (comma separated)</label>
+          <textarea id="profileSkills" rows="2">Automation Testing, Manual Testing, Regression Testing, API Testing, Android Testing, iOS Testing, Web App Testing, Security Testing</textarea>
+        </div>
+        <div class="form-field">
+          <label for="profileImageUrl">Profile Image URL (optional)</label>
+          <input id="profileImageUrl" type="text" placeholder="https://example.com/my-photo.jpg" />
+        </div>
+        <button type="button" class="btn primary full-width" id="applyProfileChanges">
+          Apply Changes
+        </button>
+        <p class="form-note">
+          * This profile editor updates only on the page (front‑end only).  
+          To save permanently, copy updated data back into your HTML or connect a backend.
+        </p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section skills">
+    <div class="section-header">
+      <h2>Skills & Tools</h2>
+      <p>Core competencies that help me deliver high-quality software.</p>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-category">
+        <h3>Testing Expertise</h3>
+        <ul>
+          <li>Automation testing</li>
+          <li>Manual testing</li>
+          <li>Regression testing</li>
+          <li>API testing</li>
+          <li>Security testing</li>
+        </ul>
+      </div>
+      <div class="skill-category">
+        <h3>Platforms & Types</h3>
+        <ul>
+          <li>Android app testing</li>
+          <li>iOS app testing</li>
+          <li>Web application testing</li>
+          <li>Cross‑platform compatibility</li>
+          <li>End‑to‑end user journey validation</li>
+        </ul>
+      </div>
+      <div class="skill-category">
+        <h3>QA Process & Tools</h3>
+        <ul>
+          <li>Test planning & strategy</li>
+          <li>Defect lifecycle & regression suites</li>
+          <li>Test case management</li>
+          <li>Risk & impact analysis</li>
+          <li>CI/CD integration for test runs</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="section experience">
+    <div class="section-header">
+      <h2>Professional Experience</h2>
+      <p>Roles where I’ve helped teams ship reliable, high-quality releases.</p>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <h3>SQA Engineer</h3>
+          <span class="timeline-date">Year - Present</span>
+          <p>
+            Working as an SQA Engineer with focus on automation testing, manual testing,
+            regression testing, API testing, and security testing for Android, iOS,
+            and web applications.
+          </p>
+          <ul>
+            <li>Design and execute regression test suites for critical user journeys.</li>
+            <li>Perform API testing and security‑focused tests on core services.</li>
+            <li>Collaborate with developers and product teams to improve quality.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <h3>Previous QA / SQA Roles</h3>
+          <span class="timeline-date">Previous Years</span>
+          <p>
+            Contributed to multiple projects by performing Android, iOS, and web
+            app testing, helping teams stabilize releases and reduce production issues.
+          </p>
+          <ul>
+            <li>Created and maintained manual and automated test cases.</li>
+            <li>Led regression and exploratory testing cycles before releases.</li>
+            <li>Improved test documentation and reporting for stakeholders.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section projects">
+    <div class="section-header">
+      <h2>Highlighted Projects</h2>
+      <p>Sample QA initiatives and testing projects I’ve led or contributed to.</p>
+    </div>
+    <div class="projects-grid">
+      <article class="project-card">
+        <span class="project-tag">Automation & Regression</span>
+        <h3>Mobile & Web Regression Suite</h3>
+        <p>
+          Designed automated and manual regression suites covering Android, iOS,
+          and web applications to ensure stable releases.
+        </p>
+        <ul>
+          <li>Automated key scenarios with focus on login, checkout, and core flows.</li>
+          <li>Combined API and UI tests for better coverage.</li>
+          <li>Reduced regression cycle time while increasing test depth.</li>
+        </ul>
+      </article>
+      <article class="project-card">
+        <span class="project-tag">API & Security</span>
+        <h3>API and Security Testing Initiative</h3>
+        <p>
+          Built API test collections and performed security‑oriented tests on
+          critical endpoints.
+        </p>
+        <ul>
+          <li>Validated authentication, authorization, and data integrity.</li>
+          <li>Identified and reported potential security and data exposure risks.</li>
+          <li>Helped strengthen API reliability before production release.</li>
+        </ul>
+      </article>
+      <article class="project-card">
+        <span class="project-tag">Process Improvement</span>
+        <h3>Test Process & Documentation Upgrade</h3>
+        <p>
+          Improved QA documentation, regression test organization, and reporting,
+          making it easier to maintain quality as projects grew.
+        </p>
+        <ul>
+          <li>Standardized test case structures and regression packs.</li>
+          <li>Introduced better defect reporting and tracking.</li>
+          <li>Increased transparency of quality status for stakeholders.</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact">
+    <div class="section-header">
+      <h2>Contact</h2>
+      <p>Interested in working together? Let’s talk.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <p>
+          I’m open to <strong>full-time</strong>, <strong>contract</strong>,
+          and <strong>remote</strong> opportunities.  
+          Feel free to reach out via email, phone, or LinkedIn.
+        </p>
+        <ul>
+          <li><strong>Email</strong>: aliqurashai333@gmail.com</li>
+          <li><strong>Phone</strong>: +92-3100553813</li>
+          <li><strong>LinkedIn</strong>: <a href="https://www.linkedin.com/in/ghazanfar-ali-b58462355" target="_blank" rel="noopener noreferrer">linkedin.com/in/ghazanfar-ali-b58462355</a></li>
+        </ul>
+      </div>
+      <form class="contact-form">
+        <div class="form-row">
+          <div class="form-field">
+            <label for="name">Name</label>
+            <input id="name" type="text" placeholder="Your name" />
+          </div>
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="you@example.com" />
+          </div>
+        </div>
+        <div class="form-field">
+          <label for="subject">Subject</label>
+          <input id="subject" type="text" placeholder="Project / Role / Collaboration" />
+        </div>
+        <div class="form-field">
+          <label for="message">Message</label>
+          <textarea id="message" rows="4" placeholder="Write a brief message..."></textarea>
+        </div>
+        <button type="submit" class="btn primary full-width">Send Message</button>
+        <p class="form-note">* This is a static demo form – integrate with your backend or service to make it functional.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Ghazanfar Ali · Software Quality Assurance Engineer</p>
+  </footer>
+
+  <script>
+    // Footer year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Drawer logic
+    const menuToggle = document.getElementById('menuToggle');
+    const sideDrawer = document.getElementById('sideDrawer');
+    const drawerOverlay = document.getElementById('drawerOverlay');
+    const drawerCloseBtn = document.getElementById('drawerCloseBtn');
+    const drawerLinks = document.querySelectorAll('.drawer-link');
+
+    function openDrawer() {
+      sideDrawer.classList.add('open');
+      drawerOverlay.classList.add('visible');
+      document.body.classList.add('no-scroll');
+    }
+
+    function closeDrawer() {
+      sideDrawer.classList.remove('open');
+      drawerOverlay.classList.remove('visible');
+      document.body.classList.remove('no-scroll');
+    }
+
+    menuToggle.addEventListener('click', openDrawer);
+    drawerOverlay.addEventListener('click', closeDrawer);
+    drawerCloseBtn.addEventListener('click', closeDrawer);
+    drawerLinks.forEach(link => {
+      link.addEventListener('click', closeDrawer);
+    });
+
+    // Profile editor logic
+    const applyBtn = document.getElementById('applyProfileChanges');
+    const profileNameInput = document.getElementById('profileName');
+    const profileRoleInput = document.getElementById('profileRole');
+    const profileSummaryInput = document.getElementById('profileSummary');
+    const profileSkillsInput = document.getElementById('profileSkills');
+    const profileImageUrlInput = document.getElementById('profileImageUrl');
+
+    const previewName = document.getElementById('previewName');
+    const previewRole = document.getElementById('previewRole');
+    const previewSummary = document.getElementById('previewSummary');
+    const previewSkills = document.getElementById('previewSkills');
+
+    const profileAvatarPreview = document.getElementById('profileAvatarPreview');
+    const profileImagePreview = document.getElementById('profileImagePreview');
+
+    const avatarCircle = document.getElementById('avatarCircle');
+    const heroTitle = document.getElementById('heroTitle');
+    const heroDescription = document.getElementById('heroDescription');
+    const heroHighlights = document.getElementById('heroHighlights');
+
+    function getInitials(name) {
+      if (!name) return 'GA';
+      const parts = name.trim().split(/\s+/);
+      const initials = parts.slice(0, 2).map(p => p[0].toUpperCase()).join('');
+      return initials || 'GA';
+    }
+
+    applyBtn.addEventListener('click', function () {
+      const name = profileNameInput.value.trim();
+      const role = profileRoleInput.value.trim();
+      const summary = profileSummaryInput.value.trim();
+      const skillsText = profileSkillsInput.value.trim();
+      const imageUrl = profileImageUrlInput.value.trim();
+
+      // Update preview text
+      if (name) previewName.textContent = name;
+      if (role) previewRole.textContent = role;
+      if (summary) previewSummary.textContent = summary;
+
+      // Update skills list
+      previewSkills.innerHTML = '';
+      if (skillsText) {
+        skillsText.split(',').map(s => s.trim()).filter(Boolean).forEach(skill => {
+          const li = document.createElement('li');
+          li.textContent = skill;
+          previewSkills.appendChild(li);
+        });
+      }
+
+      // Update initials
+      const initials = getInitials(name || 'Ghazanfar Ali');
+      profileAvatarPreview.textContent = initials;
+      avatarCircle.textContent = initials;
+
+      // Update hero summary from profile summary
+      heroDescription.textContent = summary || heroDescription.textContent;
+
+      // Optionally update hero highlights from skills (first few)
+      if (skillsText) {
+        const skillsArr = skillsText.split(',').map(s => s.trim()).filter(Boolean);
+        heroHighlights.innerHTML = '';
+        skillsArr.slice(0, 3).forEach(skill => {
+          const li = document.createElement('li');
+          li.textContent = skill;
+          heroHighlights.appendChild(li);
+        });
+      }
+
+      // Handle profile image
+      if (imageUrl) {
+        profileImagePreview.src = imageUrl;
+        profileImagePreview.classList.remove('hidden');
+        profileAvatarPreview.classList.add('hidden');
+      } else {
+        profileImagePreview.src = '';
+        profileImagePreview.classList.add('hidden');
+        profileAvatarPreview.classList.remove('hidden');
+      }
+    });
+  </script>
+</body>
+</html>
